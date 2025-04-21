@@ -197,5 +197,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
 combos:
-- p: [20, 21]
+- p: [23, 24]
   k: $$mdi:keyboard-esc$$
+- p: [1, 2]
+  k: (
+- p: [10, 11]
+  k: )
+- p: [15, 16]
+  k: {t: '[', s: '{'}
+- p: [24, 25]
+  k: {t: ']', s: '}'}
+- p: [31, 32]
+  k: '{'
+- p: [38, 39]
+  k: '}'
