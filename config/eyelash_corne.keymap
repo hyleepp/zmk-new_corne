@@ -59,6 +59,14 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         tap-ms = <100>;
     };
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&kp ESC>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
