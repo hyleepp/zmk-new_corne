@@ -63,11 +63,60 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <20 21>;
+            key-positions = <23 24>;
             bindings = <&kp ESC>;
         };
     };
+    combos {
+        compatible = "zmk,combos";
+        combo_left_par {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp LPAR>;
+        };
+    };
+    combos {
+        compatible = "zmk,combos";
+        combo_right_par {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&kp RPAR>;
+        };
+    };
+    combos {
+        compatible = "zmk,combos";
+        combo_right_bkt {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp LBKT>;
+        };
+    };
+    combos {
+        compatible = "zmk,combos";
+        combo_right_bkt {
+            timeout-ms = <50>;
+            key-positions = <24 25>;
+            bindings = <&kp RBKT>;
+        };
+    };
+    combos {
+        compatible = "zmk,combos";
+        combo_left_brc {
+            timeout-ms = <50>;
+            key-positions = <31 32>;
+            bindings = <&kp LBRC>;
+        };
+    };
+    combos {
+        compatible = "zmk,combos";
+        combo_right_brc {
+            timeout-ms = <50>;
+            key-positions = <38 39>;
+            bindings = <&kp RBRC>;
+        };
+    };
 
+        
     keymap {
         compatible = "zmk,keymap";
 
