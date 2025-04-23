@@ -43,7 +43,7 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
-            hold-while-undecided
+            hold-while-undecided;
         };
     };
 
