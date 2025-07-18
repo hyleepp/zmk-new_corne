@@ -65,7 +65,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <Q W E R T A S D F G Z X C V B TAB DEL NO DOT BSLH PIPE>; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = <Q W E R T A S D F G Z X C V B TAB DEL N0 DOT BSLH PIPE>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
     };
