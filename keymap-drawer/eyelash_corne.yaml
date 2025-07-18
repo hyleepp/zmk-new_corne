@@ -309,10 +309,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&RALT'
-  - '&LGUI'
-  - '&LCTRL'
-  - '&LEFT_SHIFT'
+  - $$mdi:apple-keyboard-option$$
+  - LGUI
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -346,15 +346,3 @@ layers:
 combos:
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
-- p: [2, 3]
-  k: (
-- p: [9, 10]
-  k: )
-- p: [15, 16]
-  k: {t: '[', s: '{'}
-- p: [24, 25]
-  k: {t: ']', s: '}'}
-- p: [30, 31]
-  k: '{'
-- p: [38, 39]
-  k: '}'
