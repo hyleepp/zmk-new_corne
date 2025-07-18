@@ -171,7 +171,7 @@
         4_symbol_layer {
             display-name = "SYMBOL";
             bindings = <
-&none  &kp GRAVE   &kp LBRC     &kp LBKT   &kp LPAR  &kp SQT                                   &mmv MOVE_UP                     &none        &RPAR      &RBKT          &RBRC      &none     &none
+&none  &kp GRAVE   &kp LBRC     &kp LBKT   &kp LPAR  &kp SQT                                   &mmv MOVE_UP                     &none        &kp RPAR      &kp RBKT          &kp RBRC      &none     &none
 &none  &kp TILDE   &kp EXCL     &kp AT     &kp HASH  &kp DQT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT    &none    &kp LEFT_SHIFT  &kp LCTRL    &kp LGUI   &kp RALT  &none  
 &none  &kp MINUS   &kp DLLR     &kp PRCNT  &kp CARET &kp UNDER                                   &mmv MOVE_DOWN                  &none        &none     &none  &none  &none   &none 
                                 &none   &kp BSLH  &kp PIPE                                                              &none        &none      &none
@@ -194,10 +194,9 @@
             display-name = "MEDIA";
             bindings = <
 &none  &none   &none    &none   &none        &none                                  &mmv MOVE_UP                     &none         &none      &none      &none     &none  &none
-&none  &RALT   &LGUI    &LCTRL  &LEFT_SHIFT  &none                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_PREV      &kp C_VOLUME_DOWN   &kp C_VOLUME_UP    &kp C_NEXT     & none   &none
-&none  &none   &none    &none   &none        &none    &none                         &bt  BT_SEL 0                    &bt BT_SEL 1      &bt BT_SEL 2   &bt BT_SEL 3    &none     & none   &none
+&none  &RALT   &LGUI    &LCTRL  &LEFT_SHIFT  &none                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_PREV      &kp C_VOLUME_DOWN   &kp C_VOLUME_UP    &kp C_NEXT     &none   &none
+&none  &none   &none    &none   &none        &none    &none                         &bt  BT_SEL 0                    &bt BT_SEL 1      &bt BT_SEL 2   &bt BT_SEL 3    &none     &none   &none
                                 &none      &none      &none                                                              &none        &kp C_PAUSE      &none
-            >;
             >;
             sensor-bindings = <&scroll_encoder>;
         };
