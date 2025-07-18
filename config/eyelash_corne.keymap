@@ -88,36 +88,6 @@
             key-positions = <23 24>;
             bindings = <&kp ESC>;
         };
-        combo_left_par {
-            timeout-ms = <50>;
-            key-positions = <2 3>;
-            bindings = <&kp LPAR>;
-        };
-        combo_right_par {
-            timeout-ms = <50>;
-            key-positions = <9 10>;
-            bindings = <&kp RPAR>;
-        };
-        combo_left_bkt {
-            timeout-ms = <50>;
-            key-positions = <15 16>;
-            bindings = <&kp LBKT>;
-        };
-        combo_right_bkt {
-            timeout-ms = <50>;
-            key-positions = <24 25>;
-            bindings = <&kp RBKT>;
-        };
-        combo_left_brc {
-            timeout-ms = <50>;
-            key-positions = <30 31>;
-            bindings = <&kp LBRC>;
-        };
-        combo_right_brc {
-            timeout-ms = <50>;
-            key-positions = <38 39>;
-            bindings = <&kp RBRC>;
-        };
     };
 
         
@@ -194,7 +164,7 @@
             display-name = "MEDIA";
             bindings = <
 &none  &none   &none    &none   &none        &none                                  &mmv MOVE_UP                     &none         &none      &none      &none     &none  &none
-&none  &RALT   &LGUI    &LCTRL  &LEFT_SHIFT  &none                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_PREV      &kp C_VOLUME_DOWN   &kp C_VOLUME_UP    &kp C_NEXT     &none   &none
+&none  &kp RALT   &kp LGUI    &kp LCTRL  &kp LEFT_SHIFT  &none                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_PREV      &kp C_VOLUME_DOWN   &kp C_VOLUME_UP    &kp C_NEXT     &none   &none
 &none  &none   &none    &none   &none        &none    &none                         &bt  BT_SEL 0                    &bt BT_SEL 1      &bt BT_SEL 2   &bt BT_SEL 3    &none     &none   &none
                                 &none      &none      &none                                                              &none        &kp C_PAUSE      &none
             >;
