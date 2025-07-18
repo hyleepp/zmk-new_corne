@@ -42,6 +42,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
             hold-while-undecided;
@@ -51,7 +52,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             require-prior-idle-ms = <150>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <Y U I O P H K L SEMI N M COMMA DOT FSLH SPACE ENTER LCLK RCLK MCLK>; // List of keys on the right side of the keyboard
@@ -62,7 +63,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             require-prior-idle-ms = <150>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <Q W E R T A S D F G Z X C V B TAB BSPC N0 DOT BSLH PIPE>; // List of keys on the left side of the keyboard
