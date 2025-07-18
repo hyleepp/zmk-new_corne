@@ -26,7 +26,7 @@ layers:
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: LGU}
+  - {t: L, h: LGUI}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
