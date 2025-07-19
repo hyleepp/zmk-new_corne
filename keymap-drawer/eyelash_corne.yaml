@@ -346,5 +346,5 @@ layers:
 combos:
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
-- p: [18, 24]
+- p: [17, 24]
   k: $$mdi:apple-keyboard-shift$$
