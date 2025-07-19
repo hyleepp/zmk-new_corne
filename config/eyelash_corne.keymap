@@ -93,7 +93,7 @@
         };
         combo_shift {
             timeout-ms = <40>;
-            key-positions = <17 24>;
+            key-positions = <17 23>;
             bindings = <&kp LEFT_SHIFT>;
             require-prior-idle-ms = <150>;
         };
