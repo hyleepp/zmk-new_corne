@@ -226,7 +226,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '-', s: _}
+  - '&'
   - $
   - '%'
   - ^
@@ -346,3 +346,5 @@ layers:
 combos:
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
+- p: [18, 24]
+  k: $$mdi:apple-keyboard-shift$$
