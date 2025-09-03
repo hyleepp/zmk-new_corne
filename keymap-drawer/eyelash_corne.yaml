@@ -18,13 +18,13 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: LGUI}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - J
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: LGUI}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: FUN}
   - {t: '$$mdi:keyboard-tab$$', h: NAV}
-  - {t: '$$mdi:backspace$$', h: MOUSE}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - MEDIA
@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MOUSE:
@@ -143,7 +143,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -202,7 +202,7 @@ layers:
   - '{'
   - {t: '[', s: '{'}
   - (
-  - {t: '''', s: '"'}
+  - _
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - )
@@ -230,7 +230,7 @@ layers:
   - $
   - '%'
   - ^
-  - _
+  - {t: '''', s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
