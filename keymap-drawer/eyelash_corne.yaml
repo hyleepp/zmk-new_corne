@@ -18,7 +18,7 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: LGUI}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
